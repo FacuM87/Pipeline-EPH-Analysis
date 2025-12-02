@@ -55,7 +55,7 @@ os.makedirs(INGRESOS_DIR, exist_ok=True)
 
 
 print("\n==============================")
-print("🚀 INICIANDO PIPELINE EPH (solo aglos 31 y 34)")
+print("🚀 INICIANDO PIPELINE EPH ")
 print("==============================\n")
 
 
@@ -182,7 +182,7 @@ for p in graficos_paths:
 
 
 # ======================================================
-#   8) Boxplot de ingresos (31 y 34)
+#   8) Boxplot de ingresos
 # ======================================================
 
 print("\n📦 Generando boxplot de ingresos...")
@@ -267,10 +267,6 @@ for p in paths_part:
     print("   →", p)
 
 
-# ======================================================
-#   FIN DEL PIPELINE
-# ======================================================
-
 print("\n=======================================")
-print("🎉 PIPELINE COMPLETO — Revisá carpeta /output")
+print("🎉 PIPELINE COMPLETO ")
 print("=======================================\n")
